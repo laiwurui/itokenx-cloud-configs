@@ -23,9 +23,9 @@ server:
 # eureka服务端配置
 eureka:
   instance:
-    hostname: 192.168.119.131
+    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://192.168.119.131:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
