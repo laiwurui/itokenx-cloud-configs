@@ -10,15 +10,15 @@ spring:
       url: http://localhost:8084
 server:
   port: 8761
-#
-#management:
-#  endpoint:
-#    health:
-#      show-details: always
-#  endpoints:
-#    web:
-#      exposure:
-#        include: ["health","info"]
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health.info
 
 # eureka服务端配置
 eureka:
