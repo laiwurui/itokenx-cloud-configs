@@ -1,7 +1,6 @@
 spring:
   application:
-    name: itokenx-eureka
-  # 被zipkin追踪
+    name: itokenx-service-admin
   zipkin:
     base-url: http://localhost:9411
     # 被监控
