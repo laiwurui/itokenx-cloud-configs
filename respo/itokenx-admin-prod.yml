@@ -6,14 +6,14 @@ spring:
 server:
   port: 8084
 # 监控信息显示
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: ["health","info"]
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *
 eureka:
   client:
     serviceUrl:
